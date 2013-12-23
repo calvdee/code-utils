@@ -1,0 +1,10 @@
+def test():
+    """Test code goes here"""
+    # L = []
+    # for i in range(100):
+    #     L.append(i)
+    
+    
+if __name__ == '__main__':
+    import timeit
+    print(timeit.timeit("test()", setup="from __main__ import test"))
